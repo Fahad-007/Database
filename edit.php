@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<style>
 		.form_wrapper {
-			width: 600px;
+			width: 50%;
 			margin: 20px auto;
 		}
 	</style>
@@ -20,12 +20,12 @@
 
 	
 <div class="form_wrapper">
-	<div class="panel panel-info">
+	<div class="panel panel-warning">
 		<div  class="panel-heading">
 			<h1>Edit user</h1>
 			<ul>
-				<li><a href="#">Registration</a></li>
-				<li><a href="list.php">Listing</a></li>
+				<li><a href="index.php">Add new member</a></li>
+				<li><a href="list.php">Students list</a></li>
 			</ul>
 		</div>
 		<div class="panel-body">

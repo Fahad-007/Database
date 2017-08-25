@@ -56,7 +56,7 @@ while ($row = mysqli_fetch_assoc($get_query)) {
 							<td><?= $value['last_name']; ?></td>
 							<td><?= $value['email_id']; ?></td>
 							<td><a href="edit.php?id=<?= $value['id']; ?>"class="btn btn-sm btn-info">edit</a></td>
-							<td><a onclick="return confirm('Are you sure')" href="list.php?idd= <?php echo $value['id']; ?>"class="btn btn-sm btn-danger">Delete</a></td>
+							<td><a onclick="return confirm('Are you sure')" href="list.php?idd= <?php echo $value['id']; ?>" class="btn btn-sm btn-danger">Delete</a></td>
 						</tr>
 						<?php 
 							if (isset($_GET['idd'])) {
